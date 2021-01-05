@@ -5,10 +5,12 @@ using TMPro;
 
 public class UI : MonoBehaviour
 {
+    /*stats text*/
     TMP_Text happines_TEXT;
     TMP_Text economy_TEXT;
     TMP_Text morbidity_TEXT;
-
+    
+    /*places text*/
     TMP_Text school_BTN_TEXT;
     TMP_Text kindergarten_BTN_TEXT;
     TMP_Text park_BTN_TEXT;
@@ -16,11 +18,15 @@ public class UI : MonoBehaviour
     TMP_Text office_BTN_TEXT;
     TMP_Text store_BTN_TEXT;
 
+    /*statistics text*/
     Statistics stats;
+
 
     public void NextTurn()
     {
+        //calculate statistics
         stats.calcStatistics();
+        //make sure everything is in range
         if (stats.Morbidity < 0) stats.Morbidity = 0;
         if (stats.Morbidity > 100) stats.Morbidity = 100;
         if (stats.Happines < 0) stats.Happines = 0;
@@ -28,8 +34,22 @@ public class UI : MonoBehaviour
         if (stats.Economy < 0) stats.Economy = 0;
         if (stats.Economy > 100) stats.Economy = 100;
 
-        newStats();
+        //update the values in text
+        newTextStats();
+
+        //increase turns by 1
+        stats.turns++;
+
+
+        //TODO: call news
+
+
     }
+
+    #region togglePlaces
+    /// <summary>
+    ///  toggle the park condition.
+    /// </summary>
     public void togglePark()
     {
         Debug.Log("togglePark");
@@ -45,6 +65,9 @@ public class UI : MonoBehaviour
             park_BTN_TEXT.color = new Color32(0, 255, 0, 255);
         }
     }
+    /// <summary>
+    ///  toggle the religion condition.
+    /// </summary>
     public void toggleReligion()
     {
         Debug.Log("toggleReligion");
@@ -60,6 +83,9 @@ public class UI : MonoBehaviour
             religion_BTN_TEXT.color = new Color32(0, 255, 0, 255);
         }
     }
+    /// <summary>
+    ///  toggle the park condition.
+    /// </summary>
     public void toggleSchool()
     {
         Debug.Log("toggleSchool");
@@ -75,6 +101,9 @@ public class UI : MonoBehaviour
             school_BTN_TEXT.color = new Color32(0, 255, 0, 255);
         }
     }
+    /// <summary>
+    ///  toggle the school condition.
+    /// </summary>
     public void toggleKindergarten()
     {
         Debug.Log("toggleKindergarten");
@@ -90,6 +119,9 @@ public class UI : MonoBehaviour
             kindergarten_BTN_TEXT.color = new Color32(0, 255, 0, 255);
         }
     }
+    /// <summary>
+    ///  toggle the office condition.
+    /// </summary>
     public void toggleOffice()
     {
         Debug.Log("toggleOffice");
@@ -105,6 +137,9 @@ public class UI : MonoBehaviour
             office_BTN_TEXT.color = new Color32(0, 255, 0, 255);
         }
     }
+    /// <summary>
+    ///  toggle the store condition.
+    /// </summary>
     public void toggleStore()
     {
         stats.store = !stats.store;
@@ -119,7 +154,12 @@ public class UI : MonoBehaviour
             store_BTN_TEXT.color = new Color32(0, 255, 0, 255);
         }
     }
-    void newStats() 
+    #endregion togglePlaces
+
+    /// <summary>
+    ///  apply the values to the text
+    /// </summary>
+    void newTextStats() 
     {
         happines_TEXT.text = stats.Happines.ToString();
         economy_TEXT.text = stats.Economy.ToString();
@@ -128,18 +168,23 @@ public class UI : MonoBehaviour
 
     private void Start()
     {
+        //setup the stats variable
         stats = this.gameObject.GetComponent<Statistics>();
+        //find the text 
         happines_TEXT = GameObject.Find("SCORE_happines").GetComponent<TMP_Text>();
         economy_TEXT = GameObject.Find("SCORE_economy").GetComponent<TMP_Text>();
         morbidity_TEXT = GameObject.Find("SCORE_morbidity").GetComponent<TMP_Text>();
 
+        //setup the places condition in text
         school_BTN_TEXT = GameObject.Find("school_BTN_TEXT").GetComponent<TMP_Text>();
         kindergarten_BTN_TEXT = GameObject.Find("kindergarten_BTN_TEXT").GetComponent<TMP_Text>();
         park_BTN_TEXT = GameObject.Find("park_BTN_TEXT").GetComponent<TMP_Text>();
         store_BTN_TEXT = GameObject.Find("store_BTN_TEXT").GetComponent<TMP_Text>();
         office_BTN_TEXT = GameObject.Find("office_BTN_TEXT").GetComponent<TMP_Text>();
         religion_BTN_TEXT = GameObject.Find("religion_BTN_TEXT").GetComponent<TMP_Text>();
-        newStats();
+
+        //setup the statistics values in text
+        newTextStats();
     }
 
 }

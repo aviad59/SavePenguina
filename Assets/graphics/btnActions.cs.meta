@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 38b0328b59536544097ecc775eb1b565
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - snowTrans: {fileID: 1408829316329747319, guid: ceef69cdd70c67240a928ccf3e643b6d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

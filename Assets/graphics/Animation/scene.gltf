@@ -1,0 +1,198 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24415,
+      "max": [
+        31.705791473388672,
+        25.399993896484375,
+        14.139009475708008
+      ],
+      "min": [
+        8.861991318553919e-07,
+        -6.9631425958505133e-08,
+        -1.0183616723224986e-06
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 292980,
+      "componentType": 5126,
+      "count": 24415,
+      "max": [
+        0.99889540672302246,
+        0.99998897314071655,
+        0.99999123811721802
+      ],
+      "min": [
+        -0.99998378753662109,
+        -0.99998199939727783,
+        -0.99992203712463379
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24415,
+      "max": [
+        0.49803921580314636,
+        0.49803921580314636,
+        0.49803921580314636,
+        0.12549020349979401
+      ],
+      "min": [
+        0.49803921580314636,
+        0.49803921580314636,
+        0.49803921580314636,
+        0.12549020349979401
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 146190,
+      "max": [
+        24414
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "dreamerbelow (https://sketchfab.com/dreamerbelow)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/igloo-1-4e79ee3f72454e659148b2d9001de5d1",
+      "title": "Igloo 1"
+    },
+    "generator": "Sketchfab-8.86.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 584760,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 585960,
+      "byteOffset": 584760,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 390640,
+      "byteOffset": 1170720,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1561360,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.42732217013540547
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.23149079084396362,
+        0,
+        0,
+        0,
+        0,
+        0.23149079084396362,
+        0,
+        0,
+        0,
+        0,
+        0.23149079084396362,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Igloo1.stl.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
