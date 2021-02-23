@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hCLTVG6cD09KvVDnpOwwNBAO91tvEaPUIGUlPgE+0Y2JMAHzmLUnFTzGltl2VWbrKiOpYF1gtHM0Fjgaa94SRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HPPC\\Desktop\\Testing NN\\Testing NN\\Testing NN.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HPPC\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\HPPC\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\HPPC\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

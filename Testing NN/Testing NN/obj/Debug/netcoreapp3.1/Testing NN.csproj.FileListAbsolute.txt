@@ -1,0 +1,19 @@
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\Testing NN.exe
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.csprojAssemblyReference.cache
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.AssemblyInfoInputs.cache
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.AssemblyInfo.cs
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\Testing NN.deps.json
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\Testing NN.runtimeconfig.json
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\Testing NN.runtimeconfig.dev.json
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\Testing NN.dll
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\Testing NN.pdb
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.csproj.CoreCompileInputs.cache
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.csproj.CopyComplete
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.dll
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.pdb
+C:\Users\HPPC\Desktop\Testing NN\Testing NN\obj\Debug\netcoreapp3.1\Testing NN.genruntimeconfig.cache
